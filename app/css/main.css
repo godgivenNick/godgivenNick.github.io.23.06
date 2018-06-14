@@ -101,9 +101,9 @@ header.header {
   background-size: cover;
   height: 70vh;
 }
-@media screen and (max-height: 899px) {
+@media screen and (max-width: 1024px) {
   header.header {
-    height: 100vh;
+    min-height: 100vh;
   }
 }
 .logo {
@@ -331,7 +331,7 @@ nav ul li.pseudo:last-child:focus:after {
     --h1_margin-top: 0;
     --menu_padding: 1.5rem 1.5rem 1rem 10%;
     --menu_f-size: 1.8rem;
-    --links_padding: 1.5rem;
+    --links_padding: 1.2rem;
     --menu_width: 70%;
   }
   .main-header {
@@ -341,7 +341,7 @@ nav ul li.pseudo:last-child:focus:after {
     display: none;
   }
   .main-header h2 {
-    font-size: 30px;
+    font-size: 24px;
   }
 }
 @media screen and (max-width: 350px) {
