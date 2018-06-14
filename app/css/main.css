@@ -271,6 +271,7 @@ nav ul li.pseudo:last-child:focus:after {
 				 сместиться на строку ниже, а бургер останется прижатым справа.
 
 			*/
+  .nav-bar { overflow:hidden; }
   .nav-bar .label-toggle {
     visibility: visible;
   }
