@@ -269,9 +269,11 @@ nav ul li.pseudo:last-child:focus:after {
 			
 				2. Т.к. обертка wrap -> при активации бургера меню будет вынуждено
 				 сместиться на строку ниже, а бургер останется прижатым справа.
-
 			*/
-  .nav-bar { overflow:hidden; }
+	
+  .nav-bar { 
+    overflow: hidden; 
+  }
   .nav-bar .label-toggle {
     visibility: visible;
   }
