@@ -50,6 +50,6 @@
   
   * псевдо-элементы/классы ;
   * @variables ;
-  * transition: ... and filter: ... ;
+  * transition: ... <br>and filter: ... ;
   * linear-grandient ;
   *
