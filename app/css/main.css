@@ -99,7 +99,7 @@ ul {
 header.header {
   background: url("../images/header_bg.jpg") no-repeat center center;
   background-size: cover;
-  height: 70vh;
+  height: 100vh;
 }
 @media screen and (max-height: 899px) {
   header.header {
